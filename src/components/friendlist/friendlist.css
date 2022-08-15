@@ -1,0 +1,20 @@
+.friendlistwrapper{
+    
+    display: flex;
+  
+    margin: 0;
+    padding: 0;
+}
+.avatarimages{
+    width: 30px;
+    height: 30px;
+    margin: 0;padding: 0;
+}
+.listitemtext{
+margin-left: -15px;
+text-align: start;
+align-items: flex-start;
+}
+.listitemavatar{
+    margin-right: 8px;
+}

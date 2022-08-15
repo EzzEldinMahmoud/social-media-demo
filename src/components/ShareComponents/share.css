@@ -1,0 +1,69 @@
+.sharetopimage{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px 10px;
+object-fit: cover;
+}
+.sharewrapper{
+    margin: 0;
+    margin-bottom: 10px;
+   
+}
+.textfieldpost:focus{
+    outline-style: none !important;
+    border:none !important;
+}
+.sharetop{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+border-radius: 1.5%;
+padding: 10px;
+}
+.hrtop{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.postclickables
+ {   height: 45px;
+width: 100%;
+display: flex;
+
+justify-content: space-between;
+padding: 5px;
+margin: 0;
+align-items: center;
+}
+.firstclick{
+    cursor: pointer;
+    display: flex;
+    margin-left: 8px;
+    
+}
+.photosvideoicon{
+    margin-right: 5px;
+    color: brown ;
+    opacity: 0.7;
+}
+.buttonshare{
+    background-color: green !important;
+    padding: 7px;
+    border-radius: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 10px !important;
+}
+.tagicon{
+    margin-right: 5px;
+    color: blue ;
+    opacity: 0.7;
+}
+.locationicon{
+    margin-right: 5px;
+    color: green ;
+    opacity: 0.7;
+}
+.feelingsicon{
+    margin-right: 5px;
+    color: yellowgreen ;
+    opacity: 0.8;
+}

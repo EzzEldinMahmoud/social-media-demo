@@ -1,0 +1,85 @@
+.sidebar{
+    flex: 3;
+    height: calc(100vh - 50px);
+    overflow: scroll;
+}
+.sidebarwrapper{
+    padding: 20px;
+    margin-right: 10px;
+   
+}
+.sidebarlist{
+padding: 0;
+margin: 0;
+list-style: none;
+}
+.sidebarListItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.sidebarIcon{
+    margin-right: 15px;
+}
+.sidebarButton{
+    margin-bottom: 15px;
+ 
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+    font-weight:bold;
+}
+.sidebarfriendpicture{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+    margin-right: 10px;
+    
+
+}
+.sidebarfriendlist{
+    list-style: none;
+   align-items: start;
+   margin: 0;
+   padding: 0;
+}
+.sidebarHr{
+    margin-bottom: 10px;
+}
+.sidebarfriends{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+.listitemtext{
+    margin-left: -15px;
+    text-align: start;
+    align-items: flex-start;
+    }
+.listitemavatar{
+        margin-right: 8px;
+    }
