@@ -18,3 +18,23 @@ width: 32px;
 .box{
     margin-bottom: 10px;
 }
+
+.rightbarfollowings{
+margin-top: 10px;
+padding: 0;
+}
+.rightbartitle{
+    margin: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+.rightbarinfoitem{
+    padding: 5px;
+    margin: 1px;
+}
+.rightbarinfokey{
+    margin-right: 10px;
+    font-weight: bold;
+    color: #555;
+}

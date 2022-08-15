@@ -3,14 +3,21 @@ import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import PersonIcon from '@mui/icons-material/Person';
 import ChatIcon from '@mui/icons-material/Chat';
 import NotificationsIcon from '@mui/icons-material/Notifications';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from "react-router-dom";
 export default function Topbar() {
   return (
     <div className="topbarContainer">
 
       <div className="topbarLeft">
-<span className="Logo">
+        <Link to="/" className="linktohomepage"><span className="Logo" >
   Freesocial
-</span>
+</span></Link>
+
       </div>
       <div className="topbarCenter">
         <div className="Searchbar">
@@ -39,7 +46,8 @@ export default function Topbar() {
 <span className="topbariconbadge">1</span>
 </div>
         </div>
-        <img src="/assets/person/1.jpeg" alt="" className="topbarimage" />
+        <a href="/profilepage"> <img src="/assets/person/1.jpeg" alt="" className="topbarimage" /></a>
+       
         </div>
     </div>
   )
